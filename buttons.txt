@@ -1,0 +1,304 @@
+Tab: top-space-1
+Group: Ungrouped
+  - URL: https://www.52pojie.cn	Name: 吾爱破解	Comment: 	Container: top-space-1
+  - URL: https://www.52cnp.com/	Name: 华印社区	Comment: 	Container: top-space-1
+  - URL: https://www.cnprint.org/bbs/index.php	Name: CPC印刷论坛	Comment: 	Container: top-space-1
+  - URL: https://www.zcool.com.cn	Name: 站酷	Comment: 	Container: top-space-1
+  - URL: https://mail.163.com	Name: 163邮箱	Comment: 	Container: top-space-1
+  - URL: https://fanyi.baidu.com/	Name: 百度翻译	Comment: 	Container: top-space-1
+
+
+Tab: tab1
+Group: 平面
+  - URL: http://www.huaban.com	Name: 花瓣	Comment: 	Container: tab1
+  - URL: https://www.zcool.com.cn/	Name: 站酷	Comment: 	Container: tab1
+  - URL: http://www.gtn9.com	Name: 古田路9号	Comment: 	Container: tab1
+  - URL: https://www.behance.net/	Name: behance	Comment: 翻墙	Container: tab1
+  - URL: https://www.meiye.art/	Name: 美叶	Comment: 分类灵感参考	Container: tab1
+  - URL: https://www.dc10000.com/	Name: 素材国度	Comment: 	Container: tab1
+  - URL: https://www.doooor.com/	Name: Dooor	Comment: 国外设计欣赏	Container: tab1
+  - URL: https://dribbble.com/	Name: Dribbble	Comment: 全球最有影响力的设计社区	Container: tab1
+  - URL: https://www.topys.cn/category/11	Name: TOPYS创意内容平台	Comment: 抢先知晓全球创意资讯	Container: tab1
+  - URL: https://muz.li/	Name: Muzli	Comment: 优秀灵感创意站	Container: tab1
+  - URL: https://jypg.net/works/popular	Name: Jypg	Comment: 日本花瓣	Container: tab1
+  - URL: https://www.ndc.co.jp/	Name: NDC	Comment: 日本设计中心	Container: tab1
+  - URL: https://www.mydesy.com/	Name: Mydesy	Comment: 台湾花瓣	Container: tab1
+  - URL: http://gointro.com/nw/	Name: 韩国画册版式	Comment: 	Container: tab1
+  - URL: https://www.ui.cn/	Name: UI中国	Comment: 国内UI设计展示	Container: tab1
+  - URL: https://designspiration.com	Name: design spiration	Comment: 	Container: tab1
+  - URL: https://brandingstyleguides.com	Name: branding style guides	Comment: 品牌规范	Container: tab1
+
+Group: 设计导航
+  - URL: https://hao.uisdc.com/	Name: 优设	Comment: 	Container: tab1
+  - URL: https://qijishow.com/	Name: 奇迹秀	Comment: 	Container: tab1
+  - URL: https://undesign.learn.uno/	Name: Undesign	Comment: 	Container: tab1
+  - URL: https://www.xiukuwang.com/	Name: 秀库网	Comment: 	Container: tab1
+  - URL: https://www.hoslin.cn/	Name: 红森林	Comment: 	Container: tab1
+  - URL: https://www.uxmap.cn/page/#/uxmap/home	Name: Uxmap	Comment: 	Container: tab1
+
+Group: 包装
+  - URL: https://www.pkg.cn/	Name: 包联网	Comment: 	Container: tab1
+
+Group: Logo
+  - URL: https://logopond.com/	Name: Logopond	Comment: 全球最大的logo资源库	Container: tab1
+  - URL: https://www.logolounge.com/	Name: Logo设计资源网	Comment: 大量logo参考	Container: tab1
+  - URL: https://www.logonews.cn/	Name: 标志情报局	Comment: Logo设计欣赏	Container: tab1
+  - URL: http://ziti.cndesign.com/art.html/	Name: 艺术字体	Comment: 字体设计展示平台	Container: tab1
+
+Group: 插画
+  - URL: https://folioart.co.uk/	Name: Folio	Comment: 英国插画	Container: tab1
+  - URL: http://sakiroo.com/	Name: Sakiroo	Comment: 韩国插画	Container: tab1
+  - URL: https://cgsociety.org/	Name: CGSociety	Comment: CG插画	Container: tab1
+  - URL: https://www.gracg.com/home	Name: 涂鸦王国	Comment: 国内原创绘画交流平台	Container: tab1
+  - URL: http://coolvibe.com/	Name: Coolvibe	Comment: 数字艺术、特色艺术和壁纸	Container: tab1
+
+
+Tab: tab2
+Group: 综合素材
+  - URL: https://www.officemod.net/	Name: freepik下载工具	Comment: 	Container: tab2
+  - URL: https://www.nipic.com/	Name: 昵图	Comment: 	Container: tab2
+  - URL: https://www.nicepsd.com/s?q=free/	Name: NicePSD	Comment: 免费psd下载	Container: tab2
+  - URL: https://www.freepik.com/	Name: freepik	Comment: 免费矢量下载	Container: tab2
+  - URL: https://www.dimensions.com/	Name: Dimension	Comment: 各种矢量线描参考图	Container: tab2
+  - URL: https://uibundle.com/	Name: uibundle	Comment: ui素材下载	Container: tab2
+  - URL: https://souq-design.com/	Name: souq-design	Comment: 阿拉伯素材下载	Container: tab2
+  - URL: https://www.graphberry.com/	Name: graphberry	Comment: UI素材、PSD素材下载	Container: tab2
+  - URL: https://www.designbetter.co/	Name: DesignBetter	Comment: 设计企划资源下载	Container: tab2
+  - URL: https://www.vecteezy.com/	Name: Vecteezy	Comment: 免费或付费矢量文件下载站	Container: tab2
+  - URL: http://www.principlerepo.com/	Name: Principle Repo	Comment: principle源文件资源下载	Container: tab2
+  - URL: https://freebiesbug.com/	Name: freebiesbug	Comment: 高质量源文件聚合资源站	Container: tab2
+  - URL: https://www.graphicsfuel.com/	Name: Graphics Fuel	Comment: 免费设计资源下载站	Container: tab2
+  - URL: https://slidemodel.com/	Name: Slidemodel	Comment: 免费PPT模板下载	Container: tab2
+  - URL: https://vectorportal.com/	Name: VectorPortal	Comment: 矢量插画	Container: tab2
+  - URL: https://tstrs.me/	Name: saltyleo的书架	Comment: 电子书下载	Container: tab2
+
+Group: 图片
+  - URL: https://www.vcg.com/	Name: 视觉中国	Comment: 	Container: tab2
+  - URL: https://www.bigbigwork.com/	Name: 大作	Comment: 	Container: tab2
+  - URL: https://pngimg.com/	Name: 免扣素材网	Comment: 	Container: tab2
+  - URL: https://www.foodiesfeed.com/	Name: 美食图片	Comment: 	Container: tab2
+  - URL: https://pixabay.com/	Name: pixabay	Comment: 	Container: tab2
+  - URL: https://www.pexels.com/	Name: pexels	Comment: 	Container: tab2
+  - URL: https://www.kaboompics.com/	Name: kaboompics	Comment: 	Container: tab2
+  - URL: https://www.hituyu.com/	Name: 平铺底纹	Comment: 	Container: tab2
+  - URL: https://www.ssyer.com/	Name: 沙沙野	Comment: 	Container: tab2
+  - URL: https://tuchong.com/tags/%E6%B4%9B%E9%98%B3	Name: 图虫搜索	Comment: 	Container: tab2
+  - URL: https://generated.photos/	Name: 无版权人像	Comment: 	Container: tab2
+  - URL: https://artsexperiments.withgoogle.com/artpalette/	Name: 同色系图片搜索	Comment: 	Container: tab2
+  - URL: https://www.pixelsquid.com/	Name: 3D对象图片下载	Comment: 	Container: tab2
+
+Group: 字体
+  - URL: https://www.mfonts.cn/	Name: 字体星球	Comment: 免费字体下载	Container: tab2
+  - URL: https://www.maoken.com/	Name: 猫啃网	Comment: 免费可商用字体下载	Container: tab2
+  - URL: https://www.fonts.net.cn/	Name: 字体天下	Comment: 	Container: tab2
+  - URL: https://www.qiuziti.com/	Name: 求字体	Comment: 	Container: tab2
+  - URL: https://www.likefont.com/	Name: 识字体	Comment: 	Container: tab2
+  - URL: https://ztxz.org.cn/	Name: 字体下载	Comment: 全	Container: tab2
+  - URL: https://hao.ziticq.com/	Name: 字体导航	Comment: 	Container: tab2
+  - URL: http://www.17ziti.com/	Name: 字体之家	Comment: 	Container: tab2
+  - URL: https://www.fontfabric.com/	Name: 高质量英文字体	Comment: 	Container: tab2
+  - URL: https://zh.fonts2u.com/	Name: Fonts2u	Comment: 按国家/风格分类	Container: tab2
+  - URL: https://fonts.safe.360.cn/	Name: 360查字体版权	Comment: 	Container: tab2
+  - URL: https://typescale.com/	Name: Typescale	Comment: 字体大小排版预览	Container: tab2
+  - URL: https://www.zdic.net/	Name: 汉典	Comment: 	Container: tab2
+  - URL: http://www.shufami.com/	Name: 书法迷	Comment: 书法字体下载	Container: tab2
+  - URL: https://www.100font.com/	Name: 100font	Comment: 免费商用字体	Container: tab2
+
+Group: 包装
+  - URL: https://www.templatemaker.nl/zh-cn/	Name: 国外包装刀版	Comment: 可调整-pdf下载-多	Container: tab2
+  - URL: https://haotuo.net.cn/box/	Name: 国内包装刀版	Comment: 可调整-pdf下载-少	Container: tab2
+  - URL: http://www.zrpbox.com/	Name: 盒研社	Comment: 刀版下载	Container: tab2
+  - URL: https://zaodao.net/	Name: 早道大咖	Comment: 包装样机下载	Container: tab2
+  - URL: http://haotuo.net.cn/box/	Name: 方便设计的彩盒	Comment: 刀版下载	Container: tab2
+  - URL: https://online.packmage.cn/Online/Boxes	Name: 包装魔术师盒型	Comment: 	Container: tab2
+  - URL: https://easypackmaker.com/	Name: easypaskmaker	Comment: 国外刀版下载	Container: tab2
+  - URL: http://daomo.cloudprintlink.com/	Name: 刀小莫	Comment: 刀版图生成	Container: tab2
+  - URL: https://www.goodpack.top/Online/Boxes	Name: 时盒CAD	Comment: 盒型下载	Container: tab2
+
+Group: 图标
+  - URL: https://www.flaticon.com/	Name: Flaticon	Comment: 矢量图标	Container: tab2
+  - URL: https://www.iconfont.cn/	Name: 阿里矢量库	Comment: 矢量图标	Container: tab2
+  - URL: https://iconsvg.xyz/	Name: SVG网页图标代码下载	Comment: 	Container: tab2
+
+Group: 样机
+  - URL: https://mockup.mitapix.com/	Name: 美塔样机	Comment: 样机下载	Container: tab2
+  - URL: https://mockups-design.com/	Name: Mockups	Comment: 样机下载	Container: tab2
+
+Group: 脚本/扩展
+  - URL: https://creativepro.com/files/kahrel/indesignscripts.html	Name: 彼得·卡雷尔id脚本	Comment: 	Container: tab2
+  - URL: http://kasyan.ho.ua/scripts_by_categories.html	Name: kasyan id脚本列表	Comment: 	Container: tab2
+  - URL: https://exchange.adobe.com/apps/browse/cc?product=All&sort=MOST_RECENT	Name: Adobe官方扩展	Comment: 	Container: tab2
+  - URL: https://kawano-shuji.com/justdiary/	Name: 日本kawano ai扩展	Comment: 	Container: tab2
+  - URL: https://houkimedia.com/jsx/	Name: InDesign脚本	Comment: 日本印刷会社脚本	Container: tab2
+  - URL: https://www.brusheezy.com/	Name: Brusheezy	Comment: 免费PS笔刷下载	Container: tab2
+  - URL: https://ysds.lanzoub.com/u/%E5%9B%BE%E5%85%B0%E6%9C%B5	Name: PS预设下载	Comment: 	Container: tab2
+  - URL: https://greasyfork.org/zh-CN	Name: Greasy Fork	Comment: 油猴脚本	Container: tab2
+
+Group: 软件
+  - URL: https://pb.wtf/	Name: PIRATBIT种子下载	Comment: m0nkrus版adobe	Container: tab2
+  - URL: https://uniondht.org/	Name: uniondht种子下载	Comment: m0nkrus版adobe/要翻墙	Container: tab2
+  - URL: https://file.cnxiaobai.com/	Name: vposy版adobe	Comment: 	Container: tab2
+  - URL: https://www.yuque.com/rgochen/smartindd	Name: Smartindd	Comment: 	Container: tab2
+  - URL: https://uztracker.net/viewtopic.php?t=52998	Name: uztracker	Comment: m0nkrus版adobe/要翻墙	Container: tab2
+  - URL: https://vk.com/monkrus	Name: monkrus软件	Comment: 	Container: tab2
+
+Group: 视频/动画
+  - URL: https://coverr.co/	Name: Coverr	Comment: 免费视频背景素材下载	Container: tab2
+  - URL: https://mixkit.co/	Name: Mixkit	Comment: 免费视频动画素材下载	Container: tab2
+
+Group: 视频教程
+  - URL: https://chenwenb.com/	Name: 大元资源网	Comment: 	Container: tab2
+  - URL: https://oomd.cn/	Name: 问小徐	Comment: 短视频相关视频、教程、素材	Container: tab2
+
+Group: 美工
+  - URL: https://www.canva.cn/	Name: 可画	Comment: 	Container: tab2
+  - URL: https://www.chuangkit.com/	Name: 创客贴	Comment: 	Container: tab2
+  - URL: https://www.gaoding.com/	Name: 稿定设计	Comment: 	Container: tab2
+  - URL: https://818ps.com/	Name: 图怪兽	Comment: 	Container: tab2
+
+
+Tab: tab3
+Group: 图像
+  - URL: https://www.bing.com/images?FORM=HDRSC2	Name: 必应识图	Comment: 要翻墙	Container: tab3
+  - URL: https://www.google.com.hk/imghp?hl=zh-TW	Name: 谷歌图片	Comment: 要翻墙	Container: tab3
+  - URL: https://graph.baidu.com/pcpage/index?tpl_from=pc	Name: 百度识图	Comment: 	Container: tab3
+  - URL: https://www.iloveimg.com/zh-cn/upscale-image	Name: 图像放大	Comment: 画质增强-好用	Container: tab3
+  - URL: https://www.tpqxb.com/	Name: 清晰吧	Comment: 图像放大	Container: tab3
+  - URL: https://www.mindvideo.ai/zh/image-to-image/	Name: mindvideo	Comment: 免费images2	Container: tab3
+  - URL: https://imagefree.net/	Name: 免费文生图	Comment: 	Container: tab3
+  - URL: https://qingtu.cn/	Name: 清图	Comment: 图像放大	Container: tab3
+  - URL: https://jimeng.jianying.com/ai-tool/home/	Name: 即梦	Comment: 	Container: tab3
+  - URL: http://xfun.design	Name: 小方智能包装	Comment: 包装生成	Container: tab3
+  - URL: https://www.codeformer.cn/	Name: Codeformer	Comment: 图像去除马赛克	Container: tab3
+  - URL: http://ImagePrompt.org	Name: 转换提示词	Comment: 图片或文本转提示词	Container: tab3
+  - URL: https://imageprompt.org/	Name: 免费图片转提示词	Comment: 	Container: tab3
+  - URL: https://klingai.kuaishou.com/	Name: 可灵	Comment: 图片转动图	Container: tab3
+  - URL: https://remove.photos/zh-cn/	Name: 在线图片工具	Comment: 	Container: tab3
+  - URL: https://magnific.ai/	Name: 图片放大	Comment: 	Container: tab3
+  - URL: https://letsenhance.io/zh-CN	Name: 图片放大	Comment: 免费10张	Container: tab3
+  - URL: https://labs.google/fx/tools/whisk	Name: whisk	Comment: 免费nana	Container: tab3
+  - URL: https://tuduck.art/web/portal/home	Name: tuduck	Comment: 生图提示词优化	Container: tab3
+
+Group: 配色
+  - URL: https://aicolors.co/?utm_source=ai-bot.cn	Name: AI color	Comment: 在线调色生成器	Container: tab3
+  - URL: https://palettemaker.com/	Name: palettemaker	Comment: 	Container: tab3
+  - URL: https://www.qtccolor.com/	Name: 潘通颜色查询	Comment: 	Container: tab3
+  - URL: https://www.zhongguose.com/	Name: 中国色	Comment: 	Container: tab3
+  - URL: https://nipponcolors.com/	Name: 传统配色	Comment: 	Container: tab3
+  - URL: https://colorhunt.co/	Name: 色彩搭配	Comment: 	Container: tab3
+  - URL: https://uigradients.com/#VeryBlue	Name: 渐变搭配	Comment: 	Container: tab3
+  - URL: https://duotone.shapefactory.co/	Name: 双色调效果	Comment: 	Container: tab3
+
+Group: 效果
+  - URL: https://jichu3d.cn/#/	Name: 几出	Comment: cdr在线3d效果	Container: tab3
+  - URL: https://spline.design/	Name: 在线3D设计	Comment: 	Container: tab3
+  - URL: https://photomosh.com/	Name: 故障特效	Comment: 	Container: tab3
+  - URL: https://codepen.io/tsuhre/full/BYbjyg	Name: 极光背景生成	Comment: 	Container: tab3
+  - URL: https://codepen.io/pimskie/pen/zgYarb	Name: 炫彩极光	Comment: 	Container: tab3
+  - URL: https://weavesilk.com/	Name: 炫彩镜像	Comment: 	Container: tab3
+  - URL: https://codepen.io/Yakudoo/full/rJjOJx	Name: 流动渐变	Comment: 	Container: tab3
+  - URL: https://wangyasai.github.io/Particles-Emission/	Name: 放射背景	Comment: 	Container: tab3
+  - URL: https://wordart.com/create	Name: 文字平铺填充	Comment: 	Container: tab3
+  - URL: https://www.ih5.cn/not-logged-in	Name: H5动效	Comment: 	Container: tab3
+
+Group: 工具
+  - URL: https://www.wannengshibie.com/ocr-write/	Name: 手写文字识别	Comment: 	Container: tab3
+  - URL: https://www.latexlive.com/	Name: 在线LateX公式编辑	Comment: 	Container: tab3
+  - URL: https://www.mmhtml.com/zh/	Name: 文库在线转换	Comment: 	Container: tab3
+  - URL: https://www.babawar.com/	Name: 简明字帖	Comment: 	Container: tab3
+  - URL: https://33tool.com/	Name: 蜻蜓工具	Comment: 在线工具合集（转换/图表）	Container: tab3
+  - URL: https://scriptui.joonas.me/	Name: UI界面在线制作	Comment: 	Container: tab3
+  - URL: https://tinywow.com/	Name: 免费的AI合集	Comment: 	Container: tab3
+  - URL: https://huangli.100xgj.com/year/2025	Name: 年历	Comment: 	Container: tab3
+  - URL: https://tinywow.com/	Name: 免费的AI合集	Comment: 	Container: tab3
+  - URL: https://www.indesignjs.de/extendscriptAPI/indesign-latest/	Name: InDesign API	Comment: 	Container: tab3
+  - URL: https://tinywow.com/	Name: Tinywow	Comment: 格式转换	Container: tab3
+  - URL: https://soundeffectgenerator.org/zh/mp3-to-flac	Name: 音频转换	Comment: 	Container: tab3
+  - URL: https://vocalremover.org/zh/cutter	Name: 音频剪辑	Comment: 	Container: tab3
+  - URL: https://www.vibevibe.cn/	Name: vibe coding	Comment: ai编程指南	Container: tab3
+  - URL: https://fogsight.ai	Name: 雾象	Comment: ai创建科普动画	Container: tab3
+
+Group: 地图
+  - URL: http://guihuayun.com/maps/index.php	Name: 规划云地图下载	Comment: 	Container: tab3
+  - URL: https://datav.aliyun.com/portal/school/atlas/area_selector	Name: 阿里云地图	Comment: 	Container: tab3
+  - URL: https://www.mapbox.com/maps/light	Name: 地图框	Comment: 	Container: tab3
+  - URL: http://211.159.153.75/index.html	Name: 标准地图服务系统	Comment: 	Container: tab3
+  - URL: https://city-roads.com	Name: Cityroad	Comment: 线条道路地图	Container: tab3
+
+Group: 网盘
+  - URL: https://www.lzpanx.com/	Name: 懒盘搜索	Comment: 网盘聚合搜索	Container: tab3
+  - URL: https://www.yunpz.net/wangpan.html	Name: 云铺子	Comment: 网盘搜索	Container: tab3
+  - URL: https://haisou.cc/	Name: 海搜	Comment: 	Container: tab3
+  - URL: https://siblr.cn/	Name: 网盘解析	Comment: 	Container: tab3
+
+Group: 翻译
+  - URL: https://fanyi.baidu.com/	Name: 百度翻译	Comment: 	Container: tab3
+  - URL: https://www.deepl.com/	Name: Deepl	Comment: 	Container: tab3
+  - URL: https://www.microsoft.com/zh-cn/translator/	Name: 微软翻译	Comment: 	Container: tab3
+
+
+Tab: tab4
+Group: 休闲
+  - URL: http://www.douyin.com	Name: 抖音	Comment: 	Container: tab4
+  - URL: http://m.xuanshu.la/	Name: 零点看书	Comment: 	Container: tab4
+  - URL: https://www.voflix.fun/	Name: Voflix影院	Comment: 动漫无广告	Container: tab4
+  - URL: http://www.tvpute.com/	Name: 策驰影院	Comment: 	Container: tab4
+  - URL: https://mxdman.hl.cn/	Name: MX动漫	Comment: 	Container: tab4
+  - URL: https://changzhangziyuan.wwwnav.com/	Name: 厂长影院	Comment: 	Container: tab4
+  - URL: https://www.wjys.cc/	Name: 万佳影视	Comment: 	Container: tab4
+  - URL: https://www.hdmoli.pro/	Name: HDmoli影院	Comment: 	Container: tab4
+  - URL: https://steamzg.com/	Name: 小叽资源	Comment: 游戏下载	Container: tab4
+  - URL: https://www.flysheep6.com/	Name: Flysheep	Comment: 游戏下载	Container: tab4
+  - URL: https://www.oldemu.com/	Name: 老男人游戏网	Comment: 怀旧掌机/家机游戏下载	Container: tab4
+  - URL: https://www.s-sgames.com/	Name: SGAMES	Comment: 单机/联机游戏下载	Container: tab4
+  - URL: https://rutracker.org/	Name: RUTRACKER	Comment: 毛子破解游戏/软件下载	Container: tab4
+  - URL: https://iui.su/3274/	Name: 小说书源仓库	Comment: 	Container: tab4
+  - URL: https://adzhp1.com/	Name: 爱达杂货铺	Comment: 闲散网址导航	Container: tab4
+  - URL: https://new.btbtt.tv/	Name: BTBBT	Comment: 电影/电视剧种子下载	Container: tab4
+  - URL: http://seedhub.pro	Name: SeedHub	Comment: 电影下载	Container: tab4
+
+Group: GPT
+  - URL: https://chat.gptcat.net/	Name: Gptcat	Comment: gpt-3.5-turbo	Container: tab4
+  - URL: https://ai.ywzxkj.com/	Name: 仰望AI	Comment: gpt-4o	Container: tab4
+  - URL: https://kimi.moonshot.cn/	Name: Kimi	Comment: 国内	Container: tab4
+  - URL: https://ahd76m.aitianhu1.top/	Name: Aitian	Comment: gpt-3.5	Container: tab4
+  - URL: https://poe.com/	Name: POE	Comment: 翻墙/gpt-4o/每天10次	Container: tab4
+  - URL: https://chat10.free2gpt.xyz/	Name: Free2gpt	Comment: 免费/gpt-3.5/限长	Container: tab4
+  - URL: https://codeium.com/pricing	Name: windsurf	Comment: 免费ai编辑器	Container: tab4
+  - URL: https://chat.deepseek.com/	Name: DeepSeek	Comment: 	Container: tab4
+  - URL: https://yuanbao.tencent.com/	Name: 腾讯元宝	Comment: 	Container: tab4
+  - URL: https://raphael.app/zh	Name: Raphael	Comment: 免费文生图	Container: tab4
+  - URL: http://freeollama.oneplus1.top	Name: 免费ollama服务器地址	Comment: 	Container: tab4
+  - URL: https://flowith.io/	Name: Flowith	Comment: 每月30次	Container: tab4
+  - URL: https://miniapps.ai/	Name: miniapps	Comment: 	Container: tab4
+  - URL: https://manus.im/app	Name: manus	Comment: 	Container: tab4
+  - URL: https://chat.lanjingai.org/	Name: 蓝鲸	Comment: 每日签到	Container: tab4
+  - URL: https://arena.ai/zh	Name: LmArena	Comment: 模型集合	Container: tab4
+  - URL: https://www.chatopens.com/	Name: ChatOpens	Comment: 多Ai模型免费	Container: tab4
+  - URL: https://askmany.cn/	Name: 模型聚合	Comment: 	Container: tab4
+  - URL: https://www.lovart.ai/	Name: lovart	Comment: 闲时免费nana	Container: tab4
+  - URL: https://labs.google/fx/zh/tools/flow/project/1beccabc-61c5-4065-ad8e-683b370e6e78	Name: Google flow	Comment: 每天免费额度nana	Container: tab4
+
+Group: VPN
+  - URL: https://www.wenpblog.com/	Name: MB博客	Comment: 每天签到增加3天时间	Container: tab4
+  - URL: https://mibei77.com/	Name: 米贝	Comment: VPN地址分享	Container: tab4
+
+Group: 软件
+  - URL: https://github.com/	Name: Github	Comment: 	Container: tab4
+  - URL: https://filecr.com/	Name: FileCR	Comment: 	Container: tab4
+  - URL: https://rsload.net/	Name: Rsload	Comment: 老毛子软件下载	Container: tab4
+  - URL: https://2baksa.ws/	Name: 2baksa	Comment: 老毛子软件下载	Container: tab4
+  - URL: https://lrepacks.net/	Name: LRepacks	Comment: 老毛子便携版下载	Container: tab4
+  - URL: https://s0ft4pc.com/	Name: S0ft4pc	Comment: 便携版软件下载	Container: tab4
+  - URL: https://www.0daydown.com/	Name: 0daydown	Comment: 	Container: tab4
+  - URL: https://www.luochenzhimu.com/	Name: 落尘之木	Comment: 网盘/有adobe	Container: tab4
+  - URL: https://www.dayanzai.me/	Name: 大眼仔旭	Comment: 	Container: tab4
+  - URL: https://www.423down.com/	Name: 423下载	Comment: 网盘下载	Container: tab4
+  - URL: https://forum.ru-board.com/	Name: Ru	Comment: 老毛子软件下载/翻墙	Container: tab4
+  - URL: https://1progs.ru/	Name: 1progs	Comment: 毛子破解便携版/翻墙	Container: tab4
+  - URL: https://msdn.itellyou.cn/	Name: MSDN	Comment: 原版系统下载	Container: tab4
+  - URL: https://greasyfork.org/zh-CN	Name: Greasy Fork	Comment: 油猴脚本	Container: tab4
+  - URL: https://gitee.com/	Name: Gitee	Comment: 	Container: tab4
+  - URL: https://www.yigushi.com/baby/	Name: 第一故事	Comment: 故事下载	Container: tab4
+
+

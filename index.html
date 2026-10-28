@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#4a90e2">
+  <meta name="format-detection" content="telephone=no, email=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="网址导航 - 管理您的常用网站，数据自动同步到 GitHub 仓库，支持手机/平板访问">
+  <link rel="stylesheet" href="css/styles.css?v=6">
+  <link rel="stylesheet" href="css/search.css?v=5">
+  <title>网址导航</title>
+</head>
+
+<body>
+  <!-- 顶部搜索区域 -->
+  <div class="top-space">
+    <!-- 同步状态指示器 - 嵌入右上角 -->
+    <div id="fileStatus" class="file-status" role="button" tabindex="0" title="点击配置 GitHub 同步" aria-label="GitHub 同步状态">
+      <span id="fileStatusIcon">☁️</span>
+      <span id="fileStatusText">未同步</span>
+    </div>
+
+    <div id="search" class="s-search">
+      <div id="search-list-menu" class="hide-type-list">
+        <div class="s-type text-center">
+          <div class="s-type-list big">
+            <label class="search-category active" data-id="group-a"><span>常用</span></label>
+            <label class="search-category" data-id="group-b"><span>搜索</span></label>
+            <label class="search-category" data-id="group-c"><span>工具</span></label>
+            <label class="search-category" data-id="group-d"><span>社区</span></label>
+            <label class="search-category" data-id="group-e"><span>生活</span></label>
+            <label class="search-category" data-id="group-f"><span>求职</span></label>
+          </div>
+        </div>
+      </div>
+      <form id="search-form" action="https://cn.bing.com/search?q=" method="get" target="_blank" class="super-search-fm" role="search">
+        <div class="search-container">
+          <input type="text" id="search-text" class="form-control smart-tips search-key" placeholder="请输入搜索内容" autocomplete="off" aria-label="搜索输入框">
+          <button type="submit" class="search-button" aria-label="搜索">
+            <i class="iconfont icon-search"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+
+      <div id="search-list" class="hide-type-list">
+        <div class="search-group group-a active">
+          <ul class="search-type">
+            <li>
+              <input type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="必应搜索..." hidden>
+              <label for="type-bing" class="active"><span class="text-muted">必应</span></label>
+            </li>
+            <li>
+              <input type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度搜索..." hidden>
+              <label for="type-baidu"><span class="text-muted">百度</span></label>
+            </li>
+            <li>
+              <input type="radio" name="type" id="type-huaban" value="https://huaban.com/search/?q=" data-placeholder="搜索花瓣网..." hidden>
+              <label for="type-huaban"><span class="text-muted">花瓣网</span></label>
+            </li>
+            <li>
+              <input type="radio" name="type" id="type-taobao" value="https://s.taobao.com/search?q=" data-placeholder="搜索淘宝商品..." hidden>
+              <label for="type-taobao"><span class="text-muted">淘宝</span></label>
+            </li>
+            <li>
+              <input type="radio" name="type" id="type-zhidemai" value="https://search.smzdm.com/?c=faxian&s=" data-placeholder="搜索什么值得买..." hidden>
+              <label for="type-zhidemai"><span class="text-muted">什么值得买</span></label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search-group group-b">
+          <ul class="search-type">
+            <li>
+              <input type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="百度搜索..." hidden>
+              <label for="type-baidu1"><span class="text-muted">百度</span></label>
+            </li>
+            <li>
+              <input type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="必应搜索..." hidden>
+              <label for="type-bing1" class="active"><span class="text-muted">必应</span></label>
+            </li>
+            <li>
+              <input type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="Google 搜索..." hidden>
+              <label for="type-google"><span class="text-muted">谷歌</span></label>
+            </li>
+            <li>
+              <input type="radio" name="type" id="type-sougou" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索..." hidden>
+              <label for="type-sougou"><span class="text-muted">搜狗</span></label>
+            </li>
+            <li>
+              <input type="radio" name="type" id="type-yandex" value="https://yandex.ru/search/?text=" data-placeholder="Yandex 搜索..." hidden>
+              <label for="type-yandex"><span class="text-muted">Yandex</span></label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 顶部快捷按钮区域 -->
+  <div class="top-space-1" id="top-space-1" aria-label="快捷按钮区"></div>
+
+  <!-- 主容器 -->
+  <div class="container">
+    <!-- 侧边栏 -->
+    <aside class="sidebar" aria-label="导航侧边栏">
+      <ul role="tablist">
+        <li class="tab" data-tab="tab1" id="defaultOpen" role="tab" tabindex="0">创意/资讯</li>
+        <li class="tab" data-tab="tab2" role="tab" tabindex="0">素材下载</li>
+        <li class="tab" data-tab="tab3" role="tab" tabindex="0">在线工具</li>
+        <li class="tab" data-tab="tab4" role="tab" tabindex="0">综合资源</li>
+      </ul>
+      <div class="sidebar-buttons">
+        <button id="exportButton" title="导出数据到文件">导出</button>
+        <input type="file" id="importButton" accept=".txt,.json" style="display: none;" />
+        <label for="importButton" title="从文件导入数据">导入</label>
+        <button id="syncButton" title="GitHub 同步设置">同步</button>
+        <button id="clearStorageButton" title="清空所有本地数据">清空</button>
+      </div>
+    </aside>
+
+    <!-- 主内容区域 -->
+    <main class="main-content" id="main-content">
+      <div id="tab1" class="content" style="display: flex; flex-direction: column;"></div>
+      <div id="tab2" class="content" style="display: flex; flex-direction: column;"></div>
+      <div id="tab3" class="content" style="display: flex; flex-direction: column;"></div>
+      <div id="tab4" class="content" style="display: flex; flex-direction: column;"></div>
+    </main>
+  </div>
+
+  <!-- 输入框面板 -->
+  <div id="inputPanel" class="input-panel" role="dialog" aria-label="添加/编辑按钮">
+    <div class="panel-hint" id="panelHint">添加按钮</div>
+    <input type="text" id="urlInput" placeholder="网址" aria-label="网址">
+    <input type="text" id="nameInput" placeholder="按钮名称" aria-label="按钮名称">
+    <input type="text" id="commentInput" placeholder="按钮注释" aria-label="按钮注释">
+    <input type="text" id="groupInput" placeholder="分组名称（留空则不分组）" aria-label="分组名称" list="groupList">
+    <datalist id="groupList"></datalist>
+    <div class="panel-buttons">
+      <button id="addButton">添加</button>
+      <button id="cancelButton" class="btn-secondary">取消</button>
+    </div>
+  </div>
+
+  <!-- 自定义右键 / 长按菜单 -->
+  <div id="contextMenu" class="context-menu" role="menu">
+    <!-- 按钮操作 -->
+    <div class="context-menu-section" data-context="button">
+      <button class="context-menu-item" data-action="edit" role="menuitem">编辑按钮</button>
+      <button class="context-menu-item" data-action="duplicate" role="menuitem">复制按钮</button>
+      <button class="context-menu-item" data-action="copyLink" role="menuitem">复制链接</button>
+      <button class="context-menu-item" data-action="openNewTab" role="menuitem">在新标签打开</button>
+      <button class="context-menu-item" data-action="moveUp" role="menuitem">上移一位</button>
+      <button class="context-menu-item" data-action="moveDown" role="menuitem">下移一位</button>
+      <button class="context-menu-item danger" data-action="delete" role="menuitem">删除按钮</button>
+    </div>
+    <!-- 分组操作 -->
+    <div class="context-menu-section" data-context="group">
+      <button class="context-menu-item" data-action="addToGroup" role="menuitem">在此分组添加按钮</button>
+      <button class="context-menu-item" data-action="renameGroup" role="menuitem">重命名分组</button>
+      <button class="context-menu-item danger" data-action="deleteGroup" role="menuitem">删除分组</button>
+    </div>
+    <!-- 空白区域操作 -->
+    <div class="context-menu-section" data-context="empty">
+      <button class="context-menu-item" data-action="addButton" role="menuitem">添加按钮</button>
+      <button class="context-menu-item" data-action="addGroup" role="menuitem">添加分组</button>
+    </div>
+  </div>
+
+  <!-- GitHub 同步设置弹窗 -->
+  <div id="ghSyncModal" class="modal-overlay" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="ghModalTitle">
+    <div class="modal-content gh-modal">
+      <div class="modal-header">
+        <h3 id="ghModalTitle">GitHub 数据同步</h3>
+        <button class="modal-close" id="ghModalClose" aria-label="关闭">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="gh-status-row">
+          <span id="ghStatusDot" class="gh-dot"></span>
+          <span id="ghStatusText">未配置</span>
+          <span id="ghStatusTime" class="gh-time"></span>
+        </div>
+        <div id="ghCredText" class="gh-cred"></div>
+
+        <div class="gh-form">
+          <label>
+            <span>仓库所有者</span>
+            <input type="text" id="ghOwner" placeholder="例如：your-name" autocomplete="off" spellcheck="false" autocapitalize="off">
+          </label>
+          <label>
+            <span>仓库名称</span>
+            <input type="text" id="ghRepo" placeholder="例如：nav-site" autocomplete="off" spellcheck="false" autocapitalize="off">
+          </label>
+          <label>
+            <span>分支</span>
+            <input type="text" id="ghBranch" placeholder="main" autocomplete="off" spellcheck="false" autocapitalize="off">
+          </label>
+          <label>
+            <span>数据文件路径</span>
+            <input type="text" id="ghPath" placeholder="buttons.txt" autocomplete="off" spellcheck="false" autocapitalize="off">
+          </label>
+          <label>
+            <span>访问令牌 Token（一般可留空）</span>
+            <input type="password" id="ghToken" placeholder="已内嵌凭据时可留空；临时覆盖时填写" autocomplete="off" spellcheck="false" autocapitalize="off">
+          </label>
+        </div>
+
+        <label class="gh-toggle">
+          <input type="checkbox" id="ghAutoSync">
+          <span class="toggle-text">
+            <strong>自动提交</strong>
+            <small>每次修改后自动提交到仓库，多端保持一致</small>
+          </span>
+        </label>
+
+        <details class="gh-help">
+          <summary>首次使用？点这里看 Token 创建步骤</summary>
+          <ol>
+            <li>打开 GitHub → Settings → Developer settings → Personal access tokens → <strong>Fine-grained tokens</strong> → Generate new token</li>
+            <li>Repository access 选择 <strong>Only select repositories</strong>，勾选本导航仓库</li>
+            <li>Repository permissions → <strong>Contents</strong> 设为 <strong>Read and write</strong></li>
+            <li>生成后复制 <code>github_pat_...</code> 粘贴到上方输入框</li>
+          </ol>
+          <p class="tip">Token 仅保存在当前浏览器的 localStorage，不会提交到仓库。公共仓库的<strong>读取</strong>不需要 Token，只有写入才需要。</p>
+        </details>
+
+        <p id="ghHint" class="gh-hint"></p>
+      </div>
+      <div class="modal-footer gh-footer">
+        <button id="ghPullBtn" class="btn-secondary">拉取云端</button>
+        <button id="ghPushBtn" class="btn-secondary">立即提交</button>
+        <button id="ghSaveBtn" class="btn-primary">保存设置</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 同步冲突弹窗 -->
+  <div id="ghConflictModal" class="modal-overlay" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="ghConflictTitle">
+    <div class="modal-content gh-modal">
+      <div class="modal-header">
+        <h3 id="ghConflictTitle">检测到数据冲突</h3>
+        <button class="modal-close" id="ghConflictClose" aria-label="关闭">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>云端仓库和本机的数据都被修改过，请选择保留哪一份：</p>
+        <ul class="gh-conflict-list">
+          <li><strong>使用云端</strong>：放弃本机改动，以仓库中的最新数据为准</li>
+          <li><strong>使用本机</strong>：用本机数据覆盖仓库</li>
+          <li><strong>合并两者</strong>：保留双方所有按钮（推荐）</li>
+        </ul>
+      </div>
+      <div class="modal-footer gh-footer gh-conflict-actions">
+        <button id="ghConflictRemote" class="btn-secondary">使用云端</button>
+        <button id="ghConflictLocal" class="btn-secondary">使用本机</button>
+        <button id="ghConflictMerge" class="btn-primary">合并两者</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 右侧浮动搜索按钮 -->
+  <button id="floatSearchBtn" class="float-search-btn" title="搜索导航" aria-label="搜索导航">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+    </svg>
+  </button>
+
+  <!-- 回到顶部浮动按钮 -->
+  <button id="backToTopBtn" class="back-to-top-btn" title="回到顶部" aria-label="回到顶部">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 12.5a.5.5 0 0 1-.5-.5V3.707L5.354 5.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 3.707V12a.5.5 0 0 1-.5.5z"/>
+    </svg>
+  </button>
+
+  <!-- 右侧浮动搜索面板 -->
+  <div id="floatSearchPanel" class="float-search-panel" role="dialog" aria-label="搜索导航">
+    <div class="float-search-header">
+      <span class="float-search-title">搜索导航</span>
+      <button id="floatSearchClose" class="float-search-close" aria-label="关闭" title="关闭">&times;</button>
+    </div>
+    <div class="float-search-wrapper">
+      <input type="text" id="localSearchInput" class="local-search-input" placeholder="搜索按钮名称/注释/网址..." aria-label="本地搜索">
+      <button id="localSearchBtn" class="local-search-btn" aria-label="搜索" title="搜索">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+      </button>
+      <button id="clearSearchBtn" class="clear-search-btn" style="display: none;" aria-label="清除搜索" title="清除">✕</button>
+    </div>
+    <div id="searchResults" class="search-results-dropdown" role="listbox" aria-label="搜索结果"></div>
+  </div>
+
+<script src="js/github-config.js?v=1793156117"></script>
+  <script src="js/script.js?v=5"></script>
+  <script src="js/github-sync.js?v=5"></script>
+  <script src="js/search.js?v=5"></script>
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+/**
+ * 网址导航 - 搜索区域样式
+ * 与主样式文件共享 CSS 变量
+ */
+
+/* ==================== 顶部搜索区域 ==================== */
+.top-space {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  flex: 0 0 200px;  /* 固定高度，在 body 弹性列中不收缩 */
+  padding: 20px;
+  gap: 20px;
+  background: linear-gradient(135deg, var(--color-primary-light, #59a5f5) 0%, var(--color-primary, #4a90e2) 100%);
+  border-radius: var(--radius-lg, 14px) var(--radius-lg, 14px) 0 0;
+}
+
+/* ==================== 文件状态指示器 ==================== */
+.file-status {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  padding: 6px 14px;
+  border-radius: var(--radius-xl, 20px);
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all var(--transition, 0.25s cubic-bezier(0.4, 0, 0.2, 1));
+  z-index: 100;
+  user-select: none;
+  backdrop-filter: blur(4px);
+}
+
+/* 已关联状态（绿色） */
+.file-status.linked {
+  background-color: rgba(40, 167, 69, 0.9);
+  color: white;
+  box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+}
+
+/* 未关联状态（半透明白） */
+.file-status.unlinked {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* 需要授权状态（黄色脉冲） */
+.file-status.need-auth {
+  background-color: rgba(255, 193, 7, 0.95);
+  color: #333;
+  animation: pulse-auth 2s infinite;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.4);
+}
+
+/* 不支持状态（红色） */
+.file-status.unsupported {
+  background-color: rgba(231, 76, 60, 0.9);
+  color: white;
+  box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3);
+}
+
+/* Firefox 自动保存状态（渐变蓝，与主题统一） */
+.file-status.firefox-auto {
+  background: linear-gradient(135deg, var(--color-primary, #4a90e2) 0%, var(--color-primary-dark, #357abd) 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(53, 122, 189, 0.4);
+}
+
+/* Firefox 手动保存状态（蓝色） */
+.file-status.firefox-manual {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* 同步中状态（半透明 + 呼吸动画） */
+.file-status.syncing {
+  background-color: rgba(255, 255, 255, 0.32);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  animation: pulse-auth 1.4s infinite;
+}
+
+@keyframes pulse-auth {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
+.file-status:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.file-status.linked:hover {
+  background-color: rgba(40, 167, 69, 1);
+}
+
+.file-status.unlinked:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.file-status.need-auth:hover {
+  background-color: rgba(255, 193, 7, 1);
+  animation: none;
+}
+
+.file-status.unsupported:hover {
+  background-color: rgba(231, 76, 60, 1);
+}
+
+.file-status.firefox-auto:hover {
+  filter: brightness(1.1);
+}
+
+.file-status.firefox-manual:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#fileStatusIcon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+#fileStatusText {
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ==================== 搜索容器 ==================== */
+.s-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.s-type-list {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.s-type-list label {
+  cursor: pointer;
+  padding: 8px 14px;
+  color: var(--color-text-on-primary, #ffffff);
+  transition: all var(--transition, 0.25s ease);
+  opacity: 0.7;
+  border-radius: var(--radius-sm, 6px);
+  font-size: 14px;
+}
+
+.s-type-list label.active {
+  color: var(--color-text-on-primary, #ffffff);
+  font-weight: 700;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.s-type-list label:hover,
+.s-type-list label:focus {
+  color: var(--color-text-on-primary, #ffffff);
+  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ==================== 搜索表单 ==================== */
+.s-search form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-container {
+  position: relative;
+  width: 900px;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+#search-text {
+  width: 100%;
+  padding: 8px 60px 8px 22px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-xl, 20px);
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color var(--transition, 0.25s ease), box-shadow var(--transition, 0.25s ease);
+  height: 52px;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--color-text, #2c3e50);
+}
+
+#search-text::placeholder {
+  color: var(--color-text-light, #95a5a6);
+}
+
+#search-text:focus {
+  border-color: var(--color-surface, #ffffff);
+  background: var(--color-surface, #ffffff);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.search-button {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  padding: 0 18px;
+  background: linear-gradient(135deg, var(--color-primary, #4a90e2) 0%, var(--color-primary-dark, #357abd) 100%);
+  color: white;
+  border: none;
+  border-radius: var(--radius-xl, 20px);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all var(--transition, 0.25s ease);
+}
+
+.search-button:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-button:active {
+  transform: scale(0.96);
+}
+
+.search-button svg {
+  fill: white;
+}
+
+/* ==================== 搜索引擎列表 ==================== */
+.search-group {
+  display: none;
+}
+
+.search-group.active {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-type {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-type label {
+  cursor: pointer;
+  padding: 6px 12px;
+  color: var(--color-text-on-primary, #ffffff);
+  transition: all var(--transition, 0.25s ease);
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.search-type label.active {
+  color: var(--color-text-on-primary, #ffffff);
+  font-weight: 700;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-sm, 6px);
+}
+
+.search-type label:hover {
+  color: var(--color-text-on-primary, #ffffff);
+  opacity: 0.9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ==================== 响应式调整 ==================== */
+/* 平板 / 小笔记本：压缩顶部留白，搜索框仍然足够宽 */
+@media (max-width: 1024px) {
+  .top-space {
+    height: 170px;
+    flex: 0 0 170px;
+    padding: 16px;
+  }
+
+  .search-container {
+    max-width: 620px;
+  }
+}
+
+/* 手机 / 平板竖屏：顶部区域改为自适应高度 */
+@media (max-width: 768px) {
+  .top-space {
+    height: auto;
+    flex: none;
+    padding: 14px 12px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0;
+  }
+
+  .file-status {
+    top: 8px;
+    right: 8px;
+    padding: 6px 12px;
+    font-size: 11px;
+    min-height: 30px;
+  }
+
+  #fileStatusText {
+    max-width: 88px;
+  }
+
+  .s-search {
+    gap: 10px;
+    padding-top: 26px;
+  }
+
+  .search-container {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 0;
+  }
+
+  #search-text {
+    height: 46px;
+    font-size: 16px;   /* ≥16px 防止 iOS 聚焦时自动放大 */
+    padding: 8px 58px 8px 16px;
+  }
+
+  .search-button {
+    padding: 0 14px;
+  }
+
+  .s-type-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .s-type-list label {
+    padding: 7px 12px;
+    font-size: 13px;
+  }
+
+  .search-type {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .search-type label {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+
+/* 小屏手机：进一步收紧 */
+@media (max-width: 480px) {
+  .top-space {
+    padding: 12px 10px;
+  }
+
+  .s-search {
+    gap: 8px;
+    padding-top: 24px;
+  }
+
+  #search-text {
+    height: 44px;
+  }
+
+  .s-type-list label {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
