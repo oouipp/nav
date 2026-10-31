@@ -278,6 +278,7 @@ Group: GPT
   - URL: https://askmany.cn/	Name: 模型聚合	Comment: 	Container: tab4
   - URL: https://www.lovart.ai/	Name: lovart	Comment: 闲时免费nana	Container: tab4
   - URL: https://labs.google/fx/zh/tools/flow/project/1beccabc-61c5-4065-ad8e-683b370e6e78	Name: Google flow	Comment: 每天免费额度nana	Container: tab4
+  - URL: https://www.agnes-ai.com/	Name: Agnes	Comment: 免费第三方模型ap	Container: tab4
 
 Group: VPN
   - URL: https://www.wenpblog.com/	Name: MB博客	Comment: 每天签到增加3天时间	Container: tab4
