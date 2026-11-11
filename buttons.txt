@@ -256,6 +256,7 @@ Group: 休闲
   - URL: https://adzhp1.com/	Name: 爱达杂货铺	Comment: 闲散网址导航	Container: tab4
   - URL: https://new.btbtt.tv/	Name: BTBBT	Comment: 电影/电视剧种子下载	Container: tab4
   - URL: http://seedhub.pro	Name: SeedHub	Comment: 电影下载	Container: tab4
+  - URL: https://www.jidiyouxi.com/	Name: 基地游戏	Comment: 单机游戏下载	Container: tab4
 
 Group: GPT
   - URL: https://chat.gptcat.net/	Name: Gptcat	Comment: gpt-3.5-turbo	Container: tab4
